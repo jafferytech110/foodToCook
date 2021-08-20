@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#wrapper .heading h1{
+    font-size: 2em;    
+}
+
+#wrapper .dishTray{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
